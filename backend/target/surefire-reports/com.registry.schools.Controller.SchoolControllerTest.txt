@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.registry.schools.Controller.SchoolControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.260 s <<< FAILURE! -- in com.registry.schools.Controller.SchoolControllerTest
+com.registry.schools.Controller.SchoolControllerTest.testDeactivateSchool -- Time elapsed: 0.781 s <<< FAILURE!
+java.lang.AssertionError: Response body does not contain 1 elements expected:<1> but was:<2>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.reactive.server.DefaultWebTestClient$DefaultListBodySpec.lambda$hasSize$0(DefaultWebTestClient.java:591)
+	at org.springframework.test.web.reactive.server.ExchangeResult.assertWithDiagnostics(ExchangeResult.java:222)
+	at org.springframework.test.web.reactive.server.DefaultWebTestClient$DefaultListBodySpec.hasSize(DefaultWebTestClient.java:590)
+	at com.registry.schools.Controller.SchoolControllerTest.testDeactivateSchool(SchoolControllerTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.registry.schools.Controller.SchoolControllerTest.testCreateAndListSchools -- Time elapsed: 0.040 s <<< FAILURE!
+java.lang.AssertionError: Response body does not contain 1 elements expected:<1> but was:<2>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.reactive.server.DefaultWebTestClient$DefaultListBodySpec.lambda$hasSize$0(DefaultWebTestClient.java:591)
+	at org.springframework.test.web.reactive.server.ExchangeResult.assertWithDiagnostics(ExchangeResult.java:222)
+	at org.springframework.test.web.reactive.server.DefaultWebTestClient$DefaultListBodySpec.hasSize(DefaultWebTestClient.java:590)
+	at com.registry.schools.Controller.SchoolControllerTest.testCreateAndListSchools(SchoolControllerTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

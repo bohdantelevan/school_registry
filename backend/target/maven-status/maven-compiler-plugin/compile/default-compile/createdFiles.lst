@@ -1,0 +1,9 @@
+com/registry/schools/Repository/SchoolRepository.class
+com/registry/schools/Controller/SchoolController.class
+com/registry/schools/Service/SchoolService.class
+com/registry/schools/DTO/SchoolDTO$SchoolDTOBuilder.class
+com/registry/schools/Enums/SchoolType.class
+com/registry/schools/SchoolsApplication.class
+com/registry/schools/Service/SchoolServiceInterface.class
+com/registry/schools/DTO/SchoolDTO.class
+com/registry/schools/Entity/School.class
